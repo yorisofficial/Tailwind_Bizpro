@@ -11,7 +11,7 @@ function UnderContruction({ children }: Props) {
         <div>
             <div className="w-full h-screen flex flex-col justify-center items-center px-[5%] xl:px-32">
                 <div className="header my-4">
-                    <Image src={'/images/under-maintenance.svg'} height={500} width={500} className='w-[400px] h-[400px' alt='under maintenance' />
+                    <Image src={'./images/under-maintenance.svg'} height={500} width={500} className='w-[400px] h-[400px' alt='under maintenance' />
                 </div>
                 <div className="w-full flex justify-center items-center flex-col gap-4">
                     <h1 className='flex text-center text-3xl font-bold'>{children} Page</h1>

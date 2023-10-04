@@ -43,7 +43,7 @@ function Navbar() {
                 <div className="w-full bg-none xl:bg-white flex flex-col xl:flex-row justify-between xl:px-8 xl:py-2 xl:rounded-[10px]">
                     <div className="flex items-center w-full xl:w-fit justify-between bg-white xl:bg-none mt-4 xl:mt-0 px-4 xl:px-0 rounded-xl">
                         <Link href={'/'} className='hover:scale-110 transform duration-700'>
-                            <Image alt='brand' src={'/images/Bizpro.svg'} height={500} width={500} className='w-[80px] h-[80px]' />
+                            <Image alt='brand' src={'./images/Bizpro.svg'} height={500} width={500} className='w-[80px] h-[80px]' />
                         </Link>
                         <div className="xl:hidden">
                             <button onClick={() => setOpen(!isOpen)} className='w-14 h-14 rounded-xl bg-[#060640] text-white flex items-center justify-center'>
