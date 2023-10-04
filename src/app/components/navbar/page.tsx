@@ -55,21 +55,11 @@ function Navbar() {
                     </div>
                     {/* Desktop */}
                     <div className='hidden xl:flex items-center gap-8'>
-                        <div className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === '/' ? 'font-semibold scale-110' : ''}`}>
-                            <Link href={'/'}>Home</Link>
-                        </div>
-                        <div className='w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700'>
-                            <Link href={'/'}>About</Link>
-                        </div>
-                        <div className='w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700'>
-                            <Link href={'/'}>Service</Link>
-                        </div>
-                        <div className='w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700'>
-                            <Link href={'/'}>Review</Link>
-                        </div>
-                        <div className='w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700'>
-                            <Link href={'/'}>Support</Link>
-                        </div>
+                        <Link href={'/'} className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === '/' ? 'font-semibold scale-110' : ''}`}>Home</Link>
+                        <Link href={'/about'} className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === '/about' ? 'font-semibold scale-110' : ''}`}>About</Link>
+                        <Link href={'/service'} className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === '/service' ? 'font-semibold scale-110' : ''}`}>Service</Link>
+                        <Link href={'/review'} className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === '/review' ? 'font-semibold scale-110' : ''}`}>Review</Link>
+                        <Link href={'/support'} className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === '/support' ? 'font-semibold scale-110' : ''}`}>Support</Link>
                     </div>
 
                     {/* mobile first */}

@@ -12,7 +12,7 @@ export default function Home() {
             <h1>home page</h1>
           </div>
         </section>
-        <section>
+        <section id="about">
           <About />
         </section>
         <section>
