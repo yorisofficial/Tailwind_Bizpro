@@ -10,8 +10,8 @@
     </head>
     <body>
         <header>
-            <nav class="w-full xl:px-32 xl:py-6 fixed">
-                <div x-data="{ openNav :  false }" x-bind:class="{ 'bg-white ': openNav }" class="w-full flex flex-col p-[32px] xl:flex-row xl:items-center xl:bg-white xl:rounded-xl xl:justify-between">
+            <nav class="w-full xl:px-32 xl:py-3 fixed">
+                <div x-data="{ openNav :  false }" x-bind:class="{ 'bg-white ': openNav }" class="w-full flex flex-col py-3 px-[32px] xl:flex-row xl:items-center xl:bg-white xl:rounded-xl xl:justify-between">
                     <div class="flex w-full xl:w-fit justify-between items-center">
                         <a href="/"><img src="/src/images/Bizpro.svg" alt="brand-logo"></a>
                         <button x-on:click="openNav = !openNav" class="xl:hidden p-4 bg-teal-400 text-white rounded-xl">
@@ -48,7 +48,7 @@
                         <img src="/src/images/hero-img.svg" alt="hero images">
                     </div>
                     <div class="flex flex-col justify-center items-start gap-5">
-                        <h1 class="font-bold text-[50px] w-full text-center xl:text-start xl:w-3/4">Perfect place for your business promotion <span>👍</span></h1>
+                        <h1 class="font-bold text-[50px] w-full text-center xl:text-start xl:w-3/4">Perf<span class="relative pt-1"><img src="/src/images/Ellipse 11.svg" alt="decor" class="absolute top-1 left-1">ec</span>t place for your business promotion <span>👍</span></h1>
                         <p class="text-base w-full text-center xl:text-start xl:w-2/4">Businesses generally promote their brand, products, and services by identifying audience.</p>
                         <div class="button-grup flex gap-8 w-full items-center justify-center xl:justify-start xl:items-start">
                             <a href="" class="buttonPrimary capitalize px-8 py-5 text-white font-semibold rounded-md bg-slate-800">Get Started</a>
