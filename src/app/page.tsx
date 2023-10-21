@@ -1,3 +1,4 @@
+import Image from "next/image";
 import About from "./(template)/about/page";
 import Review from "./(template)/review/page";
 import Service from "./(template)/service/page";
@@ -36,7 +37,7 @@ export default function Home() {
               <div className="rounded-xl p-8 bg-basic hover:drop-shadow-xl transform duration-700 border-2 border-[#f4f4f4]">
                 <div className="header-card mb-10">
                   <div className="p-4 bg-theme rounded-xl w-fit">
-                    <img src="/icons-work/box-item-1.svg" alt="box item 1" />
+                    <Image src="/icons-work/box-item-1.svg" alt="box item 1" width={80} height={80} className="w-16 h-16" />
                   </div>
                 </div>
                 <div className="body-card">
@@ -47,7 +48,7 @@ export default function Home() {
               <div className="rounded-xl p-8 bg-basic hover:drop-shadow-xl transform duration-700 border-2 border-[#f4f4f4]">
                 <div className="header-card mb-10">
                   <div className="p-4 bg-theme rounded-xl w-fit">
-                    <img src="/icons-work/box-item-2.svg" alt="box item 2" />
+                    <Image src="/icons-work/box-item-2.svg" alt="box item 2" width={80} height={80} className="w-16 h-16" />
                   </div>
                 </div>
                 <div className="body-card">
@@ -58,7 +59,7 @@ export default function Home() {
               <div className="rounded-xl p-8 bg-basic hover:drop-shadow-xl transform duration-700 border-2 border-[#f4f4f4]">
                 <div className="header-card mb-10">
                   <div className="p-4 bg-theme rounded-xl w-fit">
-                    <img src="/icons-work/box-item-3.svg" alt="box item 3" />
+                    <Image src="/icons-work/box-item-3.svg" alt="box item 3" width={80} height={80} className="w-16 h-16" />
                   </div>
                 </div>
                 <div className="body-card">
