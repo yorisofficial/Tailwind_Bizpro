@@ -7,7 +7,7 @@ import Image from "next/image";
 
 function Navbar() {
     const [isScroll, setScroll] = useState(false);
-    const [isOpen, setOpen] = React.useState(true);
+    const [isOpen, setOpen] = React.useState(false);
     const pathName = usePathname();
     const navRef = useRef(null);
 
