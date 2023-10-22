@@ -1,25 +1,44 @@
 import React from 'react'
 import dataPakages from '@/app/api/data.json'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Mousewheel, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 function Card() {
     return (
-        <div className='flex w-full overflow-x-scroll gap-4 py-4'>
-            {dataPakages.map((item) => (
-                <div key={item.id} className="card-item w-full md:w-[420px] flex flex-col gap-4 border-2 flex-shrink-0 border-basic p-4 rounded-xl hover:drop-shadow-xl bg-theme hover:bg-basic duration-700">
-                    <img src={item.gambar} alt="gambar" className='object-cover w-full h-[350px] rounded-md' />
-                    <h1 className='font-bold text-xl w-3/4'>{item.tittle}</h1>
-                    <div className="w-full flex justify-between">
-                        <div className="flex items-center rounded-xl">
-                            <img src={item.imgTeam} alt="" className='' />
-                            <p className=''>{item.totalRev}</p>
+        <div>
+            <Swiper
+                autoHeight={true}
+                slidesPerView={3}
+                spaceBetween={30}
+                pagination={{
+                    clickable: true,
+                }}
+                autoplay={{
+                    delay: 2000,
+                    disableOnInteraction: false,
+                }}
+                loop={true}
+                mousewheel={true}
+                modules={[Mousewheel, Autoplay, Pagination]}
+                className="mySwiper w-full h-fit py-8"
+            >
+                {dataPakages.map((item) => (
+                    <SwiperSlide key={item.id} className='flex gap-4 border-2 bg-theme border-[#f4f4f4] rounded-xl p-4 drop-shadow-sm hover:bg-basic hover:drop-shadow-xl'>
+                        <img src={item.gambar} alt="" className='object-cover w-full h-full rounded-md' />
+                        <h2 className='text-3xl font-bold mt-4'>{item.tittle}</h2>
+                        <div className="flex w-full items-center justify-between mt-4">
+                            <div className="flex items-center flex-col">
+                                <img src={item.imgTeam} alt="team" />
+                                <p className='ml-4'>{item.totalRev}</p>
+                            </div>
+                            <p className='font-bold text-green text-2xl'>{item.price}</p>
                         </div>
-                        <div className="flex items-center">
-                            <p className='text-3xl font-semibold text-green'>{item.price}</p>
-                        </div>
-                    </div>
-                </div>
-            ))}
-        </div>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+        </div >
     )
 }
 
