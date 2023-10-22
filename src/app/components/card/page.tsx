@@ -1,4 +1,5 @@
-import React from 'react'
+"use client";
+import React, { useRef, useState } from 'react';
 import dataPakages from '@/app/api/data.json'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Mousewheel, Pagination } from 'swiper/modules';
