@@ -34,7 +34,7 @@ export default function Home() {
               <h1 className="text-5xl md:text-6xl font-bold">How it w<span className="relative">or<img src="./images/acc-heading.svg" alt="play button" className="absolute -top-1 left-1" /></span>ks</h1>
               <p className="w-3/5 xl:w-1/4 text-center font-semibold text-basip">Businesses generally promote their brand, products, and services by identifying audience.</p>
             </div>
-            <div className="card-group grid grid-cols-1 md:grid-cols-3 gap-8 mt-[70px]">
+            <div className="card-group grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-[70px]">
               <div className="rounded-xl p-8 bg-basic hover:drop-shadow-xl transform duration-700 border-2 border-[#f4f4f4]">
                 <div className="header-card mb-10">
                   <div className="p-4 bg-theme rounded-xl w-fit">
