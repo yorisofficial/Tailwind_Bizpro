@@ -13,7 +13,7 @@ export default function Home() {
         <section id="hero-section">
           <div className="hero-section bg-theme w-full h-full grid grid-cols-1 xl:grid-cols-2 items-center justify-center px-[5%] py-32 md:px-32">
             <div className="w-full h-full xl:order-2 md:mt-20 py-10 md:py-0">
-              <Image src="./images/hero-img.svg" alt="hero images" height={500} width={500} className="w-full h-full object-fill" />
+              <Image src="./images/hero-img.png" alt="hero images" height={500} width={500} className="w-full h-full object-fill" />
             </div>
             <div className="w-full h-full flex justify-center items-center flex-col xl:items-start gap-8 md:mt-20">
               <h1 className="text-5xl md:text-6xl font-bold text-center xl:text-start xl:w-3/4">Perf<span className="relative">ec<img src="./images/acc-heading.svg" alt="play button" className="absolute -top-1 left-1" /></span>t place for your business promotion</h1>
