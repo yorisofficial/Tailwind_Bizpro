@@ -5,15 +5,15 @@ import React from 'react'
 function About() {
     return (
         <>
-            <div className="w-full h-full px-[5%] py-32 md:p-32 grid grid-cols-1 md:grid-cols-2 border items-center justify-center">
-                <div className="w-full h-full flex justify-center items-center md:order-2">
+            <div className="w-full h-full px-[5%] py-8 md:p-32 grid grid-cols-1 xl:grid-cols-2 items-center justify-center">
+                <div className="w-full flex justify-center items-center xl:order-2">
                     <div className="w-full h-full relative">
                         <Image src="./about-work/Image-about.png" alt="ilustration image" width={500} height={500} className="object-center w-full h-full" />
                         <Image src="./about-work/acc-line.png" alt="acc-image" width={50} height={80} className="absolute bottom-16 -right-10 hidden md:inline-block" />
                         <Image src="./about-work/acc-star.png" alt="acc-image" width={100} height={100} className="absolute -top-20 -right-20 hidden md:inline-block" />
                     </div>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col w-full h-full">
                     <div className="flex gap-3 flex-col">
                         <h1 className="text-5xl md:text-6xl font-bold text-center md:text-start md:w-3/4">Ab<span className="relative">ou<img src="./images/acc-heading.svg" alt="play button" className="absolute top-0 left-1" /></span>t us</h1>
                         <p className="w-full text-center md:text-start md:w-[431px] text-basip font-medium">
