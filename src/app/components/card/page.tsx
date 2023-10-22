@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Mousewheel, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import Image from 'next/image';
 
 function Card() {
     return (
@@ -38,11 +39,11 @@ function Card() {
             >
                 {dataPakages.map((item) => (
                     <SwiperSlide key={item.id} className='flex flex-shrink-0 gap-4 border-2 bg-theme border-[#f4f4f4] rounded-xl p-4 drop-shadow-sm hover:bg-basic hover:drop-shadow-xl z-20'>
-                        <img src={item.gambar} alt="gambar" className='object-cover w-full h-full rounded-md' />
+                        <Image src={item.gambar} alt="gambar" className='object-cover w-full h-full rounded-md' height={400} width={400} />
                         <h2 className='text-xl md:text-3xl font-bold mt-4'>{item.tittle}</h2>
                         <div className="flex w-full items-center justify-between mt-4">
                             <div className="flex items-center flex-col">
-                                <img src={item.imgTeam} alt="team" />
+                                <Image src={item.imgTeam} alt="team" height={400} width={400} />
                                 <p className='ml-4'>{item.totalRev}</p>
                             </div>
                             <p className='font-bold text-green text-2xl'>{item.price}</p>
