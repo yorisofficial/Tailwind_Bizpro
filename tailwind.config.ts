@@ -20,6 +20,7 @@ const config: Config = {
       'theme': '#ECF9FF',
       'basic': '#ffffff',
       'basip': '#9090A7',
+      'green': '#00E5CC',
 
     }
   },

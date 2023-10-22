@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "gambar": "https://s3-alpha-sig.figma.com/img/d02e/bd40/5c01db79ea782671a044760b91586b4c?Expires=1698624000&Signature=pCtSaY~eWZDokCu8ewExbQh82oZx2vz8gD37D7jobOGFg-~Hr-wIy2D9Dc~LhpA3eRDJGgSmZhhRjqzzQN~SSvpJ0WicEvUVZqbopLH6URYW843EkorE6LgEkLnYcum3sT0PCwX0jDv8Dk5RfIUmZ~18Ab8qVjzzGy8n7hqRB4baVPWRQVzVdPUM8KCpSOniUo6cUbkLaesBdiOjN90KUgtTRxk8jkxR5iegzS-YlWehPrLFZKJd9RsO9hse0-xlsMicSt3ucAkS4-GJwzdDYHImLJD4Q2YCuwzS24GUhBqP9n42eDWaZN3ZWTKXJMPQDy48VKkarrK-wf9oISuy6w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "tittle": "The basic package to start your promotion",
+        "totalRev": "200k+ users",
+        "price": "89.00",
+        "imgTeam": "./pakeges/Group1.svg"
+      },
+    {
+        "id": "2",
+        "gambar": "https://s3-alpha-sig.figma.com/img/c6fa/6acd/cabb876211471a581a633a5fadf00d69?Expires=1698624000&Signature=oJSgkhx37Bn-RwZFB22SHYyRgRr~-v4qF-TtdfsCkKZryLCRyhFb4PIHEiyM-K3Z5ccaSxB0V02JRg1IguWHYMQj7vI17l-gChzwFl3nyRxRVuPHfFpXvQU8RxJq5xW0E-4o9WbqiQdznuGK2HdEn0Zs8ziEtG9lpEUFTWwHNwXeKiXv3AkLJSOE4C48YWlcS5On38LR2RPKp664c0xWfPEaRC2KSi8q8L3Lswi1gzQ6enmXsl4HFJ4HVI1N1-9pw-gHNcw03m96fk5W3ZmYiOg21hN2qiAAlvskOHbBCOOcEc-fvS5I3IYPtqCPTNYdFqjNGDWj5NVYRZ6O6KMx~A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "tittle": "The basic package to start your promotion",
+        "totalRev": "200k+ users",
+        "price": "109.00",
+        "imgTeam": "./pakeges/Group1.svg"
+      },
+    {
+        "id": "3",
+        "gambar": "https://www.figma.com/file/pzRWCfQwYjIWwqC0O44T21/image/01d67850464b3b88467e8665141bbef80caae90f",
+        "tittle": "The premium package to boost your promotion",
+        "totalRev": "99k+ users",
+        "price": "149.00",
+        "imgTeam": "./pakeges/Group1.svg"
+      }
+]
+  
