@@ -35,7 +35,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className={`w-full flex xl:px-32 xl:mt-12 fixed px-[5%] z-50 ${isScroll ? "drop-shadow-xl" : ""}`} ref={navRef}>
+            <nav className={`w-full flex xl:px-32 xl:mt-8 fixed px-[5%] z-50 ${isScroll ? "drop-shadow-xl" : ""}`} ref={navRef}>
                 <div className="w-full bg-none xl:bg-basic flex flex-col xl:flex-row justify-between xl:px-8 xl:py-2 xl:rounded-[10px]">
                     <div className="flex items-center w-full xl:w-fit justify-between bg-basic xl:bg-none mt-4 xl:mt-0 px-4 xl:px-0 rounded-xl">
                         <Link href="/" className="hover:scale-110 transform duration-700">
@@ -85,12 +85,12 @@ function Navbar() {
                         </div>
                     )}
                     <div className="buttonGroup xl:flex items-center gap-6 hidden">
-                        <Link href="/">
+                        <Link href="/signin">
                             <Button variant="links" className="btnLinks">
                                 Sign In
                             </Button>
                         </Link>
-                        <Link href="/">
+                        <Link href="/signup">
                             <Button variant="primary" className="btnPrimary">
                                 Sign Up
                             </Button>
