@@ -1,7 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
 ### 🌐 English
+# Undercontruction 🏗
+
+## Demo
+
+Link: https://yorisofficial.github.io/Tailwind_Bizpro/
+
+
 
 # TRAVLOG (DESKTOP & SMARTPHONE)
 
@@ -58,23 +62,3 @@ This project is licensed under an open license, granting freedom to use it in co
 5. Open your browser or use a Live Preview extension to see the navigation bar in action.
 
 Happy coding!
-
----
-
-=======
-
-### Undercontruction 🏗
-
-## Demo
-
-Link: https://yorisofficial.github.io/Tailwind_Bizpro/
-
-> > > > > > > # 9e2d8d47c1bd9fe139ca83a22d1ce2c7d4e3a7a4
-
-### Undercontruction 🏗
-
-## Demo
-
-Link: https://yorisofficial.github.io/Tailwind_Bizpro/
-
-> > > > > > > 9e2d8d47c1bd9fe139ca83a22d1ce2c7d4e3a7a4
