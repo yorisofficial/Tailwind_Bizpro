@@ -16,7 +16,7 @@ function About() {
                 </div>
                 <div className="flex flex-col w-full h-full">
                     <div className="flex gap-3 flex-col">
-                        <h1 className="text-5xl xl:text-6xl font-bold text-center xl:text-start xl:w-3/4">Ab<span className="relative">ou<Image src="./images/acc-heading.svg" alt="play button" height={88} width={80} className={`${styleAcc}`} /></span>t us</h1>
+                        <h1 className="text-5xl xl:text-6xl font-bold text-center xl:text-start xl:w-3/4">Ab<span className="relative">ou<Image src="./images/acc-heading.svg" alt="play button" height={20} width={20} className={`${styleAcc}`} /></span>t us</h1>
                         <p className="w-full text-center xl:text-start xl:w-[431px] text-basip font-medium">
                             No wonder that promotion strategy is one of the most important processes in marketing.
                             In fact, it supports your marketing voices to reach your target audience, creates interest, and helps you to engage with them.

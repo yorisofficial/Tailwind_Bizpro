@@ -32,7 +32,7 @@ export default function Home() {
         <section>
           <div className="flex flex-col items-center justify-center w-full h-full py-32 px-[5%] xl:p-32">
             <div className="header-content w-full flex flex-col items-center justify-center gap-3">
-              <h1 className="text-5xl md:text-6xl font-bold">How it w<span className="relative">or<Image src="./images/acc-heading.svg" alt="play button" className={`${styleAcc}`} /></span>ks</h1>
+              <h1 className="text-5xl md:text-6xl font-bold">How it w<span className="relative">or<Image src="./images/acc-heading.svg" alt="play button" height={20} width={20} className={`${styleAcc}`} /></span>ks</h1>
               <p className="w-3/5 xl:w-1/4 text-center font-semibold text-basip">Businesses generally promote their brand, products, and services by identifying audience.</p>
             </div>
             <div className="card-group grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-[70px]">

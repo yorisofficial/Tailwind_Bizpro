@@ -4,7 +4,8 @@ const nextConfig = {
     output: 'export',
     images: {
         unoptimized: true,
-    }
+    },
+    swcMinify: true,
 }
 
 module.exports = nextConfig

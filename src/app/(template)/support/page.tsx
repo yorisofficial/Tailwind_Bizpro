@@ -1,5 +1,6 @@
 import Button from '@/app/components/button/page'
 import UnderContruction from '@/app/template/ondemaind/ondemaind'
+import Image from 'next/image'
 import React from 'react'
 
 function Support() {
@@ -8,7 +9,7 @@ function Support() {
         <div className='w-full h-full flex justify-center items-center flex-col px-[5%] py-32 xl:px-32'>
             <div className="w-full md:p-16 rounded-xl md:bg-theme">
                 <div className="header-content w-full flex flex-col items-center justify-center gap-3 py-4">
-                    <h1 className="text-5xl md:text-6xl font-bold w-full text-center">Subscribe <span className="relative">ne<img src="./images/acc-heading.svg" alt="play button" className={`${styleAcc}`} /></span>wsletter</h1>
+                    <h1 className="text-5xl md:text-6xl font-bold w-full text-center">Subscribe <span className="relative">ne<Image src="./images/acc-heading.svg" alt="play button" width={20} height={20} className={`${styleAcc}`} /></span>wsletter</h1>
                     <p className="w-3/4 xl:w-3/5 text-center font-semibold text-basip mt-5">Businesses generally promote their brand, products, and services by identifying audience.</p>
                 </div>
                 <div className="form-input mt-10">
