@@ -36,7 +36,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className={`w-full flex xl:px-32 xl:mt-8 fixed px-[5%] z-50 ${isScroll ? "drop-shadow-xl" : ""}`} ref={navRef}>
+            <nav className={`w-full flex xl:px-32 xl:mt-4 fixed px-[5%] z-50 ${isScroll ? "drop-shadow-xl" : ""}`} ref={navRef}>
                 <div className="w-full bg-none xl:bg-basic flex flex-col xl:flex-row justify-between xl:px-8 xl:py-2 xl:rounded-[10px]">
                     <div className="flex items-center w-full xl:w-fit justify-between bg-basic xl:bg-none mt-4 xl:mt-0 px-4 xl:px-0 rounded-xl">
                         <Link href="/" className="hover:scale-110 transform duration-700">
@@ -66,7 +66,7 @@ function Navbar() {
                         <Link href="/" className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === "/" ? "font-semibold scale-110" : ""}`}>Home</Link>
                         <Link href="/about" className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === "/about" ? "font-semibold scale-110" : ""}`}>About</Link>
                         <Link href="/service" className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === "/service" ? "font-semibold scale-110" : ""}`}>Service</Link>
-                        <Link href="/support" className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === "/support" ? "font-semibold scale-110" : ""}`}>Support</Link>
+                        <Link href="/" className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === "/support" ? "font-semibold scale-110" : ""}`}>Support</Link>
                     </div>
 
                     {/* mobile first */}
@@ -75,7 +75,7 @@ function Navbar() {
                             <Link onClick={() => setOpen(false)} href="/" className={`text-base hover:bg-[#060640] p-4 rounded-xl hover:text-basic transform duration-700 ${pathName === "/" ? "bg-[#060640] text-basic font-semibold scale-105" : ""}`}>Home</Link>
                             <Link onClick={() => setOpen(false)} href={"/about"} className={`text-base hover:bg-primary p-4 rounded-xl hover:text-basic transform duration-700 ${pathName === "/about" ? "bg-[#060640] text-basic font-semibold scale-105" : ""}`}>About</Link>
                             <Link onClick={() => setOpen(false)} href={"/service"} className={`text-base hover:bg-primary p-4 rounded-xl hover:text-basic transform duration-700 ${pathName === "/service" ? "bg-[#060640] text-basic font-semibold scale-105" : ""}`}>Service</Link>
-                            <Link onClick={() => setOpen(false)} href={"/support"} className={`text-base hover:bg-primary p-4 rounded-xl hover:text-basic transform duration-700 ${pathName === "/support" ? "bg-[#060640] text-basic font-semibold scale-105" : ""}`}>Support</Link>
+                            <Link onClick={() => setOpen(false)} href={"/"} className={`text-base hover:bg-primary p-4 rounded-xl hover:text-basic transform duration-700 ${pathName === "/support" ? "bg-[#060640] text-basic font-semibold scale-105" : ""}`}>Support</Link>
                         </div>
                     )}
                     <div className="buttonGroup xl:flex items-center gap-6 hidden">

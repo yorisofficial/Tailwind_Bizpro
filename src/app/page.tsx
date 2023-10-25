@@ -134,6 +134,10 @@ export default function Home() {
         <p className="text-base">Copyright © 2021 <Image src="./images/Bizpro-dark.svg" alt="logo-dark" height={50} width={50} /></p>
         <p className="text-base">All Rights Reserved</p>
       </div>
+      <div className="w-full flex flex-col justify-center items-center py-32">
+        <iframe className="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FzfpLSnfyHm29JMMwTYp4oK%2FBizpro---A-Business-Promotion-Solution-Landing-Page-(Community)%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DVTpjE2dgWmXbQgHp-1"></iframe>
+        <a className="px-6 py-3 border-xl border-black bg-black text-basic rounded-xl hover:drop-shadow-xl font-semibold hover:ring-2 ring-black duration-700" href="https://www.figma.com/file/zfpLSnfyHm29JMMwTYp4oK/Bizpro---A-Business-Promotion-Solution-Landing-Page-(Community)?type=design&node-id=0%3A1&mode=design&t=VTpjE2dgWmXbQgHp-1" target="_blank" rel="noopener noreferrer">Open Figma</a>
+      </div>
     </main >
   )
 }
