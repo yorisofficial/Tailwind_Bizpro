@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "gambar": "./pakeges/service/1.png",
+        "gambar": "./pakeges/service/1.webp",
         "tittle": "The basic package to start your promotion",
         "totalRev": "200k+ users",
         "price": "$89.00",
@@ -9,7 +9,7 @@
       },
     {
         "id": "2",
-        "gambar": "./pakeges/service/2.png",
+        "gambar": "./pakeges/service/2.webp",
         "tittle": "The basic package to start your promotion",
         "totalRev": "200k+ users",
         "price": "$109.00",
@@ -17,7 +17,7 @@
       },
     {
         "id": "3",
-        "gambar": "./pakeges/service/3.png",
+        "gambar": "./pakeges/service/3.webp",
         "tittle": "The premium package to boost your promotion",
         "totalRev": "99k+ users",
         "price": "$149.00",
@@ -25,7 +25,7 @@
       },
     {
         "id": "4",
-        "gambar": "./pakeges/service/2.png",
+        "gambar": "./pakeges/service/2.webp",
         "tittle": "The single package to start your promotion",
         "totalRev": "200K+ users",
         "price": "$89.00",
