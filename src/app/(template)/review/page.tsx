@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image";
 
 function Review() {
-    const styleAcc = 'absolute -top-2 left-2'
+    const styleAcc = 'absolute w-8 h-8 -top-2 left-2'
     return (
         <div className='w-full h-full flex flex-col justify-center items-center px-[5%] xl:px-32 py-32'>
             <div className="header-content flex w-full flex-col justify-center items-center py-4">

@@ -3,7 +3,7 @@ import UnderContruction from '@/app/template/ondemaind/ondemaind'
 import React from 'react'
 
 function Support() {
-    const styleAcc = 'absolute -top-2 left-2'
+    const styleAcc = 'absolute w-8 h-8 -top-2 left-2'
     return (
         <div className='w-full h-full flex justify-center items-center flex-col px-[5%] py-32 xl:px-32'>
             <div className="w-full md:p-16 rounded-xl md:bg-theme">

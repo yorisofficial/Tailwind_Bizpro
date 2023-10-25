@@ -4,12 +4,10 @@ import Review from "./(template)/review/page";
 import Service from "./(template)/service/page";
 import Support from "./(template)/support/page";
 import Button from "./components/button/page";
-import { IconBrandFacebook, IconBrandInstagram, IconBrandTwitter } from "@tabler/icons-react";
-import { IconBrandLinkedin } from "@tabler/icons-react";
-import Link from "next/link";
+import { IconBrandFacebook, IconBrandInstagram, IconBrandTwitter, IconBrandLinkedin } from "@tabler/icons-react";
 
 export default function Home() {
-  const styleAcc = 'absolute -top-2 left-2'
+  const styleAcc = 'absolute w-8 h-8 -top-2 left-2'
   const iconSocial = 'p-2 border-2 border-basic w-fit rounded-full text-basic hover:text-[#00E5CC] hover:border-[#00E5CC]'
   return (
     <main>
@@ -20,12 +18,12 @@ export default function Home() {
               <Image src="./images/hero-img.png" alt="hero images" height={500} width={500} className="w-full h-full object-contain" />
             </div>
             <div className="w-full h-full flex justify-center items-center flex-col xl:items-start gap-8 md:mt-20">
-              <h1 className="text-5xl md:text-6xl font-bold text-center xl:text-start xl:w-full">Perf<span className="relative">ec<img src="./images/acc-heading.svg" alt="play button" className="absolute -top-1 left-1" /></span>t place for your business promotion</h1>
+              <h1 className="text-5xl md:text-6xl font-bold text-center xl:text-start xl:w-full">Perf<span className="relative">ec<Image src="./images/acc-heading.svg" alt="play button" height={20} width={20} className={`${styleAcc}`} /></span>t place for your business promotion</h1>
               <p className="text-center w-3/4 xl:text-start">Businesses generally promote their brand, products, and services by identifying audience.</p>
               <div className="flex items-center justify-center md:justify-start gap-6">
                 <Button variant="primary" className="w-fit h-[60px]">Get Started</Button>
                 <button className="w-fit h-16 font-semibold p-6 border-2 border-basic rounded-full bg-basic drop-shadow-lg">
-                  <img src="./images/play.svg" alt="play button" />
+                  <Image src="./images/play.svg" alt="play button" height={10} width={10} className="w-4 h-4" />
                 </button>
               </div>
             </div>
@@ -34,7 +32,7 @@ export default function Home() {
         <section>
           <div className="flex flex-col items-center justify-center w-full h-full py-32 px-[5%] xl:p-32">
             <div className="header-content w-full flex flex-col items-center justify-center gap-3">
-              <h1 className="text-5xl md:text-6xl font-bold">How it w<span className="relative">or<img src="./images/acc-heading.svg" alt="play button" className={`${styleAcc}`} /></span>ks</h1>
+              <h1 className="text-5xl md:text-6xl font-bold">How it w<span className="relative">or<Image src="./images/acc-heading.svg" alt="play button" className={`${styleAcc}`} /></span>ks</h1>
               <p className="w-3/5 xl:w-1/4 text-center font-semibold text-basip">Businesses generally promote their brand, products, and services by identifying audience.</p>
             </div>
             <div className="card-group grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-[70px]">
