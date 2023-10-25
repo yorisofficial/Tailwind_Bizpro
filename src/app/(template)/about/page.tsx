@@ -6,10 +6,10 @@ function About() {
     const styleAcc = 'absolute w-8 h-8 -top-2 left-2'
     return (
         <>
-            <div className="grid grid-cols-1 md:grid-cols-2 px-[5%] py-32 xl:px-32">
+            <div className="grid grid-cols-1 xl:grid-cols-2 px-[5%] py-32 xl:px-32">
                 <div className="w-full flex justify-center items-center xl:order-2">
                     <div className="w-full h-full relative">
-                        <Image src="./about-work/Image-about.webp" alt="ilustration image" width={500} height={500} className="object-center w-full h-full" />
+                        <Image src="./about-work/Image-about.webp" alt="ilustration image" width={500} height={500} className="object-contain w-full h-full" />
                         <Image src="./about-work/acc-line.webp" alt="acc-image" width={50} height={80} className="absolute bottom-16 -right-10 hidden xl:inline-block" />
                         <Image src="./about-work/acc-star.webp" alt="acc-image" width={100} height={100} className="absolute -top-20 -right-20 hidden xl:inline-block" />
                     </div>
