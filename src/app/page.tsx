@@ -3,12 +3,12 @@ import About from "./(template)/about/page";
 import Review from "./(template)/review/page";
 import Service from "./(template)/service/page";
 import Support from "./(template)/support/page";
-import Button from "./components/button/page";
 import { IconBrandFacebook, IconBrandInstagram, IconBrandTwitter, IconBrandLinkedin } from "@tabler/icons-react";
 
 export default function Home() {
   const styleAcc = 'absolute w-8 h-8 -top-2 left-2'
   const iconSocial = 'p-2 border-2 border-basic w-fit rounded-full text-basic hover:text-[#00E5CC] hover:border-[#00E5CC]'
+  const btnPrimary = 'text-base min-w-[120px] min-h-[55px] bg-primary text-basic px-8 rounded-[6px] hover:scale-110 hover:font-semibold transform duration-700'
   return (
     <main>
       <>
@@ -21,10 +21,10 @@ export default function Home() {
               <h1 className="text-5xl md:text-6xl font-bold text-center xl:text-start xl:w-full">Perf<span className="relative">ec<Image src="./images/acc-heading.svg" alt="play button" height={20} width={20} className={`${styleAcc}`} /></span>t place for your business promotion</h1>
               <p className="text-center w-3/4 xl:text-start">Businesses generally promote their brand, products, and services by identifying audience.</p>
               <div className="flex items-center justify-center md:justify-start gap-6">
-                <Button variant="primary" className="w-fit h-[60px]">Get Started</Button>
-                <Button variant="links" className="w-fit h-16 font-semibold p-6 border-2 border-basic rounded-full bg-basic drop-shadow-lg">
+                <button className={`w-fit h-[60px] ${btnPrimary}`}>Get Started</button>
+                <button className="w-fit h-16 font-semibold p-6 border-2 border-basic rounded-full bg-basic drop-shadow-lg">
                   <Image src="./images/play.svg" alt="play button" height={10} width={10} className="w-4 h-4" />
-                </Button>
+                </button>
               </div>
             </div>
           </div>

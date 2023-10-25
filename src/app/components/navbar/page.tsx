@@ -1,11 +1,12 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
-import Button from "../button/page";
 import Link from "next/link";
 import Image from "next/image";
 
 function Navbar() {
+    const btnPrimary = 'text-base min-w-[120px] min-h-[55px] bg-primary text-basic px-8 rounded-[6px] hover:scale-110 hover:font-semibold transform duration-700'
+
     const [isScroll, setScroll] = useState(false);
     const [isOpen, setOpen] = React.useState(false);
     const pathName = usePathname();
@@ -79,14 +80,14 @@ function Navbar() {
                     )}
                     <div className="buttonGroup xl:flex items-center gap-6 hidden">
                         <Link href="/">
-                            <Button variant="links" className="btnLinks">
+                            <button className={``}>
                                 Sign In
-                            </Button>
+                            </button>
                         </Link>
                         <Link href="/">
-                            <Button variant="primary" className="btnPrimary">
+                            <button className={`${btnPrimary}`}>
                                 Sign Up
-                            </Button>
+                            </button>
                         </Link>
                     </div>
                 </div>
