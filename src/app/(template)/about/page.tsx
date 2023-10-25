@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 
 function About() {
+    const styleAcc = 'absolute -top-1 left-1'
     return (
         <>
             <div className="w-full h-full px-[5%] py-8 xl:p-32 grid grid-cols-1 xl:grid-cols-2 items-center justify-center">
@@ -15,7 +16,7 @@ function About() {
                 </div>
                 <div className="flex flex-col w-full h-full">
                     <div className="flex gap-3 flex-col">
-                        <h1 className="text-5xl xl:text-6xl font-bold text-center xl:text-start xl:w-3/4">Ab<span className="relative">ou<img src="./images/acc-heading.svg" alt="play button" className="absolute top-0 left-1" /></span>t us</h1>
+                        <h1 className="text-5xl xl:text-6xl font-bold text-center xl:text-start xl:w-3/4">Ab<span className="relative">ou<img src="./images/acc-heading.svg" alt="play button" className={`${styleAcc}`} /></span>t us</h1>
                         <p className="w-full text-center xl:text-start xl:w-[431px] text-basip font-medium">
                             No wonder that promotion strategy is one of the most important processes in marketing.
                             In fact, it supports your marketing voices to reach your target audience, creates interest, and helps you to engage with them.
