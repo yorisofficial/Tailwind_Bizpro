@@ -87,9 +87,9 @@ export default function Home() {
           <Support />
         </section>
       </>
-      <div className="w-full h-fit bg-primary text-basic px-[5%] py-32 xl:px-32 grid grid-cols-1 md:grid-cols-2 gap-8 xl:grid-cols-3 justify-between items-center">
+      <div className="w-full h-fit bg-primary text-basic px-[5%] py-32 xl:px-32 grid grid-cols-1 md:grid-cols-2 gap-8 xl:grid-cols-3 justify-between items-start">
         <div className="flex justify-center items-start flex-col w-[350px] gap-5">
-          <img src="./images/Bizpro-dark.svg" alt="" />
+          <Image src="./images/Bizpro-dark.svg" alt="logo-dark" height={100} width={100} />
           <p className="w-3/4">This is a big one and i consider it one of the most important things for a business.</p>
           <div className="icon-grup w-fit flex gap-2">
             <div className={`facebook ${iconSocial}`}>
