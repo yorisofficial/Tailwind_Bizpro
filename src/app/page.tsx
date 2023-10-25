@@ -22,9 +22,9 @@ export default function Home() {
               <p className="text-center w-3/4 xl:text-start">Businesses generally promote their brand, products, and services by identifying audience.</p>
               <div className="flex items-center justify-center md:justify-start gap-6">
                 <Button variant="primary" className="w-fit h-[60px]">Get Started</Button>
-                <button className="w-fit h-16 font-semibold p-6 border-2 border-basic rounded-full bg-basic drop-shadow-lg">
+                <Button variant="links" className="w-fit h-16 font-semibold p-6 border-2 border-basic rounded-full bg-basic drop-shadow-lg">
                   <Image src="./images/play.svg" alt="play button" height={10} width={10} className="w-4 h-4" />
-                </button>
+                </Button>
               </div>
             </div>
           </div>
