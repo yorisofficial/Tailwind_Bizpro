@@ -70,7 +70,6 @@ function Navbar() {
                         <Link href="/" className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === "/" ? "font-semibold scale-110" : ""}`}>Home</Link>
                         <Link href="/about" className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === "/about" ? "font-semibold scale-110" : ""}`}>About</Link>
                         <Link href="/service" className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === "/service" ? "font-semibold scale-110" : ""}`}>Service</Link>
-                        <Link href="/review" className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === "/review" ? "font-semibold scale-110" : ""}`}>Review</Link>
                         <Link href="/support" className={`w-full xl:w-fit justify-center flex p-3 xl:p-0 rounded-xl hover:scale-110 hover:font-semibold transform duration-700 ${pathName === "/support" ? "font-semibold scale-110" : ""}`}>Support</Link>
                     </div>
 
@@ -80,17 +79,16 @@ function Navbar() {
                             <Link onClick={() => setOpen(false)} href="/" className={`text-base hover:bg-[#060640] p-4 rounded-xl hover:text-basic transform duration-700 ${pathName === "/" ? "bg-[#060640] text-basic font-semibold scale-105" : ""}`}>Home</Link>
                             <Link onClick={() => setOpen(false)} href={"/about"} className={`text-base hover:bg-primary p-4 rounded-xl hover:text-basic transform duration-700 ${pathName === "/about" ? "bg-[#060640] text-basic font-semibold scale-105" : ""}`}>About</Link>
                             <Link onClick={() => setOpen(false)} href={"/service"} className={`text-base hover:bg-primary p-4 rounded-xl hover:text-basic transform duration-700 ${pathName === "/service" ? "bg-[#060640] text-basic font-semibold scale-105" : ""}`}>Service</Link>
-                            <Link onClick={() => setOpen(false)} href={"/review"} className={`text-base hover:bg-primary p-4 rounded-xl hover:text-basic transform duration-700 ${pathName === "/review" ? "bg-[#060640] text-basic font-semibold scale-105" : ""}`}>Review</Link>
                             <Link onClick={() => setOpen(false)} href={"/support"} className={`text-base hover:bg-primary p-4 rounded-xl hover:text-basic transform duration-700 ${pathName === "/support" ? "bg-[#060640] text-basic font-semibold scale-105" : ""}`}>Support</Link>
                         </div>
                     )}
                     <div className="buttonGroup xl:flex items-center gap-6 hidden">
-                        <Link href="/signin">
+                        <Link href="/">
                             <Button variant="links" className="btnLinks">
                                 Sign In
                             </Button>
                         </Link>
-                        <Link href="/signup">
+                        <Link href="/">
                             <Button variant="primary" className="btnPrimary">
                                 Sign Up
                             </Button>

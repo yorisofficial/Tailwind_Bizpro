@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 
 function About() {
-    const styleAcc = 'absolute -top-1 left-1'
+    const styleAcc = 'absolute -top-2 left-2'
     return (
         <>
             <div className="w-full h-full px-[5%] py-8 xl:p-32 grid grid-cols-1 xl:grid-cols-2 items-center justify-center">

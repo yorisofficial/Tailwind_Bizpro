@@ -21,6 +21,7 @@ const config: Config = {
       'basic': '#ffffff',
       'basip': '#9090A7',
       'green': '#00E5CC',
+      'black': '#000020',
 
     }
   },

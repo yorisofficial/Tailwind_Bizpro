@@ -4,20 +4,23 @@ import Review from "./(template)/review/page";
 import Service from "./(template)/service/page";
 import Support from "./(template)/support/page";
 import Button from "./components/button/page";
-import Card from "./components/card/page";
+import { IconBrandFacebook, IconBrandInstagram, IconBrandTwitter } from "@tabler/icons-react";
+import { IconBrandLinkedin } from "@tabler/icons-react";
+import Link from "next/link";
 
 export default function Home() {
-  const styleAcc = 'absolute -top-1 left-1'
+  const styleAcc = 'absolute -top-2 left-2'
+  const iconSocial = 'p-2 border-2 border-basic w-fit rounded-full text-basic hover:text-[#00E5CC] hover:border-[#00E5CC]'
   return (
     <main>
       <>
         <section id="hero-section">
           <div className="hero-section bg-theme w-full h-full grid grid-cols-1 xl:grid-cols-2 items-center justify-center px-[5%] py-32 md:px-32">
             <div className="w-full h-full xl:order-2 md:mt-20 py-10 md:py-0">
-              <Image src="./images/hero-img.png" alt="hero images" height={500} width={500} className="w-full h-full object-fill" />
+              <Image src="./images/hero-img.png" alt="hero images" height={500} width={500} className="w-full h-full object-contain" />
             </div>
             <div className="w-full h-full flex justify-center items-center flex-col xl:items-start gap-8 md:mt-20">
-              <h1 className="text-5xl md:text-6xl font-bold text-center xl:text-start xl:w-3/4">Perf<span className="relative">ec<img src="./images/acc-heading.svg" alt="play button" className="absolute -top-1 left-1" /></span>t place for your business promotion</h1>
+              <h1 className="text-5xl md:text-6xl font-bold text-center xl:text-start xl:w-full">Perf<span className="relative">ec<img src="./images/acc-heading.svg" alt="play button" className="absolute -top-1 left-1" /></span>t place for your business promotion</h1>
               <p className="text-center w-3/4 xl:text-start">Businesses generally promote their brand, products, and services by identifying audience.</p>
               <div className="flex items-center justify-center md:justify-start gap-6">
                 <Button variant="primary" className="w-fit h-[60px]">Get Started</Button>
@@ -27,7 +30,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
         </section>
         <section>
           <div className="flex flex-col items-center justify-center w-full h-full py-32 px-[5%] xl:p-32">
@@ -78,13 +80,70 @@ export default function Home() {
         <section id="service">
           <Service />
         </section>
-        <section id="review">
+        <section id="global">
           <Review />
         </section>
         <section id="support">
           <Support />
         </section>
       </>
-    </main>
+      <div className="w-full h-fit bg-primary text-basic px-[5%] py-32 xl:px-32 grid grid-cols-1 md:grid-cols-2 gap-8 xl:grid-cols-3 justify-between items-center">
+        <div className="flex justify-center items-start flex-col w-[350px] gap-5">
+          <img src="./images/Bizpro-dark.svg" alt="" />
+          <p className="w-3/4">This is a big one and i consider it one of the most important things for a business.</p>
+          <div className="icon-grup w-fit flex gap-2">
+            <div className={`facebook ${iconSocial}`}>
+              <a href="http://" target="_blank" rel="">
+                <IconBrandFacebook size={24} />
+              </a>
+            </div>
+            <div className={`instagram ${iconSocial}`}>
+              <a href="http://" target="_blank" rel="">
+                <IconBrandInstagram size={24} />
+              </a>
+            </div>
+            <div className={`twitter ${iconSocial}`}>
+              <a href="http://" target="_blank" rel="">
+                <IconBrandTwitter size={24} />
+              </a>
+            </div>
+            <div className={`linkedin ${iconSocial}`}>
+              <a href="http://" target="_blank" rel="">
+                <IconBrandLinkedin size={24} />
+              </a>
+            </div>
+          </div >
+        </div >
+        <div className="flex flex-col gap-5">
+          <div className="header">
+            <h1 className="text-3xl text-basic font-bold">Company</h1>
+          </div>
+          <Link href="/" className="text-basip font-light">
+            About
+          </Link>
+          <Link href="/" className="text-basip font-light">
+            Contact
+          </Link>
+          <Link href="/" className="text-basip font-light">
+            Careers
+          </Link>
+          <Link href="/" className="text-basip font-light">
+            Press
+          </Link>
+        </div>
+        <div className="flex flex-col gap-5">
+          <div className="header">
+            <h1 className="text-3xl text-basic font-bold">Information</h1>
+          </div>
+          <a href="#" target="_blank" rel="" className="text-basip font-light">Privacy Policy</a>
+          <a href="#" target="_blank" rel="" className="text-basip font-light">Terms & Condition</a>
+          <a href="#" target="_blank" rel="" className="text-basip font-light">FAQ</a>
+        </div>
+      </div >
+      <div className="w-full h-fit flex justify-between bg-black text-basic px-[5%] py-5 xl:px-32">
+        <p className="text-base">Copyright © 2021 <Image src="./images/Bizpro-dark.svg" alt="logo-dark" height={50} width={50} /></p>
+        <p className="text-base">All Rights Reserved</p>
+      </div>
+    </main >
   )
 }
