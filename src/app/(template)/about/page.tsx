@@ -26,7 +26,7 @@ function About() {
                         <div className="card-items flex w-full gap-5 py-4">
                             <div className="header-card">
                                 <div className="p-2 w-20 h-20 rounded-xl bg-theme flex items-center justify-center">
-                                    <img src="./about-work/footer/acc-shield.svg" alt="shield card" width={80} height={80} className="drop-shadow-xl shadow-[#a7f9d796] w-14 h-14" />
+                                    <Image src="./about-work/footer/acc-shield.svg" alt="shield card" width={80} height={80} className="drop-shadow-xl shadow-[#a7f9d796] w-14 h-14" />
                                 </div>
                             </div>
                             <div className="flex flex-col gap-2">
@@ -39,7 +39,7 @@ function About() {
                         <div className="card-items flex w-full gap-5 py-4">
                             <div className="header-card">
                                 <div className="p-2 w-20 h-20 rounded-xl bg-theme flex items-center justify-center">
-                                    <img src="./about-work/footer/acc-gols.svg" alt="gols card" width={80} height={80} className="drop-shadow-xl shadow-[#a7f9d796] w-14 h-14" />
+                                    <Image src="./about-work/footer/acc-gols.svg" alt="gols card" width={80} height={80} className="drop-shadow-xl shadow-[#a7f9d796] w-14 h-14" />
                                 </div>
                             </div>
                             <div className="flex flex-col gap-2">
