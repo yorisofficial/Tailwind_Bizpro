@@ -22,7 +22,6 @@ function Support() {
                     </form>
                 </div>
             </div>
-            <div className=""></div>
 
         </div>
     )
