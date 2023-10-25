@@ -118,18 +118,10 @@ export default function Home() {
           <div className="header">
             <h1 className="text-3xl text-basic font-bold">Company</h1>
           </div>
-          <Link href="/" className="text-basip font-light">
-            About
-          </Link>
-          <Link href="/" className="text-basip font-light">
-            Contact
-          </Link>
-          <Link href="/" className="text-basip font-light">
-            Careers
-          </Link>
-          <Link href="/" className="text-basip font-light">
-            Press
-          </Link>
+          <a href="/" className="text-basip font-light">About</a>
+          <a href="/" className="text-basip font-light">Contact</a>
+          <a href="/" className="text-basip font-light">Careers</a>
+          <a href="/" className="text-basip font-light">Press</a>
         </div>
         <div className="flex flex-col gap-5">
           <div className="header">
